@@ -59,7 +59,7 @@ export default {
     <div class="menu container">
       <div class="text-center">
         <h2>about me</h2>
-        <img :src="`${myPicture}`" alt="李孟臻" />
+        <img :src="myPicture" alt="李孟臻" />
         <h1>李孟臻</h1>
       </div>
       <ul class="contact">

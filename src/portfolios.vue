@@ -112,6 +112,7 @@ ul{
   }
   h4 {
     padding-left: 12px;
+    margin-bottom: 16px;
     border-left: 6px solid $primary;
     color: $primary;
   }

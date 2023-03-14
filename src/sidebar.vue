@@ -150,7 +150,11 @@ export default {
   }
   .menu {
     height: 100vh;
-
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+}
     img {
       width: 180px;
       height: 180px;

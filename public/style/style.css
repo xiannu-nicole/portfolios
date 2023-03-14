@@ -36,6 +36,10 @@ body.overlay {
 
 a {
   text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4 {

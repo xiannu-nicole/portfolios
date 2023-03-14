@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 let store = new Vuex.Store({
     state:{
-        myPicture:"/stars/public/image/img.jpg",
+        myPicture:"/portfolios/public/image/img.jpg",
         items:[
             {
                 title:"綠豆蒜製研所",
@@ -61,12 +61,12 @@ let store = new Vuex.Store({
         stars:[
             {
                 title:"太空旅星",
-                img:"/stars/public/image/stars/img-01.jpg",
+                img:"/portfolios/public/image/stars/img-01.jpg",
                 href:"https://xiannu-nicole.github.io/stars/",
             },
             {
                 title:"相關小測驗",
-                img:"/stars/public/image/stars/img-02.jpg",
+                img:"/portfolios/public/image/stars/img-02.jpg",
                 href:"https://xiannu-nicole.github.io/stars/#/test/",
             },
         ],

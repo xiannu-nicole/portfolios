@@ -63,8 +63,8 @@ export default {
         <h1>李孟臻</h1>
       </div>
       <ul class="contact">
-        <li><i class="fas fa-envelope"></i> nicole16312@gmail.com</li>
-        <li><i class="fas fa-phone-square"></i> 0963122158</li>
+        <li class="mb-2"><a href="tel:0963122158" target="_blank"><i class="fas fa-phone-square"></i> 0963122158</a></li>
+        <li><a href="mailto:nicole16312@gmail.com" target="_blank"><i class="fas fa-envelope"></i> nicole16312@gmail.com</a></li>
       </ul>
       <br />
       <h3>基本資料</h3>
@@ -150,6 +150,7 @@ export default {
   }
   .menu {
     height: 100vh;
+
     img {
       width: 180px;
       height: 180px;
@@ -166,6 +167,9 @@ export default {
     ul {
       padding: 0;
       list-style-position: inside;
+  li:not(:last-child){
+    margin-bottom: 4px;
+}
       &.contact {
         padding: 0;
         list-style-type: none;

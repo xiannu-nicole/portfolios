@@ -100,6 +100,11 @@ h2 {
 hr {
   margin: 4rem 0;
 }
+ul{
+  li:not(:last-child){
+    margin-bottom: 8px;
+  }
+}
 #introduction {
   h4,
   h5 {

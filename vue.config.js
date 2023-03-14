@@ -1,20 +1,18 @@
 module.exports = {
-    publicPath: './',
-      outputDir: 'dist',
-      lintOnSave: true,
-      runtimeCompiler: true,
-      chainWebpack: () => {},
-      configureWebpack: () => {},
-      devServer: {
-        open: process.platform === 'darwin',
-        host: '0.0.0.0',
-        port: 8080,
-        https: false,
-        hotOnly: false,
-        proxy: null, 
-        before: app => {}
-      }
-    }
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/portfolios/'
+    : '/',
+    // productionSourceMap: false,
+    // publicPath: './',
+    // outputDir: 'dist',
+    // assetsDir: 'assets',
+    // devServer: {
+    //     port: 8090,
+    //     host: '0.0.0.0',
+    //     https: false,
+    //     open: true
+    // },
+}
 
 
     

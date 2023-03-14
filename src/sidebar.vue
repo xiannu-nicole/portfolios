@@ -12,8 +12,10 @@ export default {
     overlay: function(newVal) {
       if (newVal === true) {
         this.sidebarOpen = true;
+        this.showOverlay()
       } else {
         this.sidebarOpen = false;
+        this.showOverlay()
       }
     },
   },

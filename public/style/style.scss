@@ -3,7 +3,9 @@
 $primary:#A8D4AD;
 $secondary:#60B16A;
 $accent:#587792;
-
+html{
+    font-size: 16px;
+}
 body{
     margin: 0;
     font-family: 'Noto Sans TC', sans-serif;
@@ -46,7 +48,7 @@ h1,h2,h3,h4{
 }
 h2{
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-bottom: 40px;
     color: $secondary;
     font-family: 'Climate Crisis', cursive;

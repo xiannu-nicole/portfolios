@@ -108,7 +108,7 @@ ul{
 #introduction {
   h4,
   h5 {
-    font-size: 16px;
+    font-size: 1rem;
   }
   h4 {
     padding-left: 12px;
@@ -145,7 +145,7 @@ ul{
       color: #ffffff50;
       font-weight: 400;
       letter-spacing: 4px;
-      font-size: 44px;
+      font-size: 2.75rem;
       transform: translate(-50px, 100%);
     }
     &:hover {

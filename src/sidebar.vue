@@ -131,7 +131,7 @@ export default {
   background: $primary;
   min-height: 100vh;
   width: 70vw;
-  font-size: 0.9rem;
+  font-size: 14px;
   position: relative;
   &.show {
     left: 0;
@@ -162,11 +162,11 @@ export default {
       border-radius: 50%;
     }
     h1 {
-      font-size: 1.5rem;
+      font-size: 24px;
       margin: 20px 0 40px;
     }
     h3 {
-      font-size: 1rem;
+      font-size: 16px;
     }
     ul {
       padding: 0;
@@ -196,7 +196,7 @@ export default {
       height: 80px;
       right: -70px;
       i {
-        font-size: 1.25rem;
+        font-size: 20px;
       }
       &.show {
         right: -80px;

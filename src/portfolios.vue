@@ -28,7 +28,7 @@ export default {
           <div class="year">
             <h4>2022 年</h4>
             <p>
-              年初開始任職於一家行銷公司，工作內容為依據客戶的需求單，獨立完成一頁式網站的設計及切版，製作流程既要符合響應式的規範，也要掌握SEO的優化。
+              年初開始任職於一家行銷公司，工作內容為製作公司官網，及依據客戶的需求單，獨立完成一頁式網站的設計及切版，製作流程既要符合響應式的規範，也要掌握SEO的優化。
             </p>
             <h5>主要技術：</h5>
             <ul>
@@ -108,7 +108,7 @@ ul{
 #introduction {
   h4,
   h5 {
-    font-size: 1rem;
+    font-size: 16px;
   }
   h4 {
     padding-left: 12px;
@@ -145,7 +145,7 @@ ul{
       color: #ffffff50;
       font-weight: 400;
       letter-spacing: 4px;
-      font-size: 2.75rem;
+      font-size: 24px;
       transform: translate(-50px, 100%);
     }
     &:hover {
@@ -185,8 +185,11 @@ ul{
   }
 }
 @media (min-width: 992px) {
-  //   #introduction{
-  //   width: 50%;
-  // }
-}
+  #works {
+  a.item-wrapper {
+    h6 {
+      font-size: 44px;
+    }
+  }
+  }}
 </style>

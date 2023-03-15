@@ -8,6 +8,11 @@ let store = new Vuex.Store({
         myPicture:"/portfolios/public/image/img.jpg",
         items:[
             {
+                title:"艾麗曼",
+                img:"https://element.com.tw/public/image/about/img-01.jpg",
+                href:"https://element.com.tw/",
+            },
+            {
                 title:"綠豆蒜製研所",
                 img:"https://element.com.tw/ludousuan/image/banner/img-01.jpg",
                 href:"https://element.com.tw/ludousuan/",

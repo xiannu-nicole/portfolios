@@ -7,10 +7,10 @@ let store = new Vuex.Store({
     state:{
         myPicture:"/portfolios/public/image/img.jpg",
         items:[
-            {
-                title:"艾麗曼",
-                img:"https://element.com.tw/public/image/about/img-01.jpg",
-                href:"https://element.com.tw/",
+                        {
+                title:"光域文旅",
+                img:"https://hemusih.com/guangyu-inn/img/rooms/1f/%E6%B5%AE%E5%85%89/1.jpg",
+                href:"https://hemusih.com/guangyu-inn/",
             },
             {
                 title:"綠豆蒜製研所",
@@ -18,21 +18,11 @@ let store = new Vuex.Store({
                 href:"https://element.com.tw/ludousuan/",
             },
             {
-                title:"光域文旅",
-                img:"https://hemusih.com/guangyu-inn/img/rooms/1f/%E6%B5%AE%E5%85%89/1.jpg",
-                href:"https://hemusih.com/guangyu-inn/",
-            },
-            {
                 title:"帕帕拉夏音樂學苑",
                 img:"https://element.com.tw/peggie-music-house/public/image/banner/img-01.jpg",
                 href:"https://element.com.tw/peggie-music-house/",
             },
-            {
-                title:"英國皇家愛樂",
-                img:"https://element.com.tw/sun-kids/public/image/banner/img-01.jpg",
-                href:"https://element.com.tw/sun-kids/",
-            },
-            {
+                        {
                 title:"韓燒",
                 img:"https://element.com.tw/hanshao-korea/public/image/environment/img-01.jpg",
                 href:"https://element.com.tw/hanshao-korea/",
@@ -42,6 +32,17 @@ let store = new Vuex.Store({
                 img:"https://element.com.tw/rose-beauty/public/image/banner/img-01.jpg",
                 href:"https://element.com.tw/rose-beauty/",
             },
+                        {
+                title:"艾麗曼",
+                img:"https://element.com.tw/public/image/about/img-01.jpg",
+                href:"https://element.com.tw/",
+            },
+            {
+                title:"英國皇家愛樂",
+                img:"https://element.com.tw/sun-kids/public/image/banner/img-01.jpg",
+                href:"https://element.com.tw/sun-kids/",
+            },
+
             {
                 title:"氣息音樂工作室",
                 img:"https://element.com.tw/respirer-studio-de-musique/public/image/banner/img-01.jpg",

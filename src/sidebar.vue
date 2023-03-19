@@ -25,7 +25,7 @@ export default {
       this.$emit("overlay", this.sidebarOpen);
       if (this.sidebarOpen === true) {
         $("body").css({ overflow: "hidden" });
-        $(".menu").css({ overflow: "scroll" });
+        $(".menu").css({ 'overflow-y': "scroll", 'overflow-x': "hidden"});
       } else {
         $("body").css({ overflow: "auto" });
       }
@@ -150,6 +150,7 @@ export default {
   }
   .menu {
     height: 100vh;
+    padding: 10px;
     a{
         &:hover{
             text-decoration: underline;
